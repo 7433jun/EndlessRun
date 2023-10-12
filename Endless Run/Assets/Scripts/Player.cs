@@ -2,16 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum RoadLine
-{
-    LEFT = -1,
-    MIDDLE = 0,
-    RIGHT = 1,
-}
-
 public class Player : MonoBehaviour
 {
     [SerializeField] float positionX;
+
+    [SerializeField] ObjectSound objectSound = new ObjectSound();
 
     private float moveLength = 3.5f;
 
@@ -29,12 +24,16 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            AudioManager.instance.Sound(objectSound.audioClip[0]);
+
             positionX -= moveLength;
             SetPosition();
         }
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
+            AudioManager.instance.Sound(objectSound.audioClip[0]);
+
             positionX += moveLength;
             SetPosition();
         }

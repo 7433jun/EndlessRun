@@ -345,11 +345,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/AudioManager.cs"
-"Assets/Scripts/CollisionBox.cs"
-"Assets/Scripts/ObjectSound.cs"
+"Assets/Scripts/etc/CollisionBox.cs"
+"Assets/Scripts/etc/ObjectSound.cs"
+"Assets/Scripts/Manager/AudioManager.cs"
+"Assets/Scripts/Manager/CoinManager.cs"
+"Assets/Scripts/Manager/RoadManager.cs"
 "Assets/Scripts/Player.cs"
-"Assets/Scripts/RoadManager.cs"
 "Assets/Scripts/Singleton.cs"
 -langversion:9.0
 

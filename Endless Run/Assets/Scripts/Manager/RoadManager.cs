@@ -31,5 +31,7 @@ public class RoadManager : MonoBehaviour
         float newZ = roads[roads.Count - 1].transform.position.z + offset;
         tempRoad.transform.position = new Vector3(0, 0, newZ);
         roads.Add(tempRoad);
+
+        tempRoad.GetComponentInChildren<CoinManager>().NewPosition();
     }
 }

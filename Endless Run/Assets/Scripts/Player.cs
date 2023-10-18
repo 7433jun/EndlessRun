@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] ObjectSound objectSound = new ObjectSound();
 
     private float moveLength = 3.5f;
-
+    
     void Start()
     {
         
@@ -45,5 +45,15 @@ public class Player : MonoBehaviour
     {
         positionX = Mathf.Clamp(positionX, -moveLength, moveLength);
         gameObject.transform.position = new Vector3(positionX, 0f, 0f);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        IItem item= other.GetComponent<IItem>();
+
+        if (item != null)
+        {
+            item.Use();
+        }
     }
 }

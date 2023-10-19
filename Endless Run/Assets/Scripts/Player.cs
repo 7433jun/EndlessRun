@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
         if (item != null)
         {
             item.Use();
+            other.gameObject.SetActive(false);
         }
     }
 }

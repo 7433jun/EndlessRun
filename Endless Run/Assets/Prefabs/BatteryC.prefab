@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 75
+  magnetCollider: {fileID: 934628396508327718, guid: d61d3b9efbbaa0840a36a88e1318c0f8, type: 3}
 --- !u!65 &-715315250172672198
 BoxCollider:
   m_ObjectHideFlags: 0

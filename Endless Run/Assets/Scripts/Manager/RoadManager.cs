@@ -13,6 +13,7 @@ public class RoadManager : MonoBehaviour
 
     public void Start()
     {
+        roads.Capacity = 4;
         roadCallback = newPosition;
     }
 

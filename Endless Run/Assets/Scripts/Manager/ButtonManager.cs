@@ -1,10 +1,7 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
-using UnityEditor.PackageManager;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class ButtonManager : MonoBehaviour
@@ -14,6 +11,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] int createCount = 4;
 
     List<Button> buttonList = new List<Button>();
+    [SerializeField] string[] buttonName;
 
     void Start()
     {
@@ -38,14 +36,19 @@ public class ButtonManager : MonoBehaviour
 
     void Register()
     {
-        buttonList[0].onClick.AddListener(() => Debug.Log("A"));
+        buttonList[0].onClick.AddListener(StartGame);
         buttonList[1].onClick.AddListener(() => Debug.Log("B"));
         buttonList[2].onClick.AddListener(() => Debug.Log("C"));
         buttonList[3].onClick.AddListener(() => Debug.Log("D"));
 
-        buttonList[0].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Start";
-        buttonList[1].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Shop";
-        buttonList[2].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Option";
-        buttonList[3].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Quit";
+        for(int i = 0; i < createCount; i++)
+        {
+            buttonList[i].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = buttonName[i];
+        }
+    }
+
+    public void StartGame()
+    {
+        GameManager.instance.GameStart();
     }
 }

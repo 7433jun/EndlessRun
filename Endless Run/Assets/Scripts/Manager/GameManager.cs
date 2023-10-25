@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
     [SerializeField] Animator playerAnimator;
     [SerializeField] Animator cameraAnimator;
+
+    [SerializeField] GameObject layoutPanel;
+    [SerializeField] GameObject countDownNumber;
+    int count;
 
     void Start()
     {
@@ -22,19 +27,37 @@ public class GameManager : Singleton<GameManager>
         cameraAnimator.enabled = true;
         playerAnimator.SetTrigger("Start");
 
-        StartCoroutine(StartWait());
+        layoutPanel.SetActive(false);
 
-        //playerAnimator.SetLayerWeight(1, 0);
-        //Time.timeScale = 1.0f;
+        StartCoroutine(StartWait());
     }
 
     IEnumerator StartWait()
     {
-        yield return new WaitForSecondsRealtime(0.01f);
-        Debug.Log("A");
-        yield return new WaitForSecondsRealtime(playerAnimator.GetCurrentAnimatorStateInfo(1).length);
-        Debug.Log("B");
+        yield return new WaitForSecondsRealtime(2f);
+
+        StartCoroutine(CountDown());
+
+        yield return new WaitForSecondsRealtime(3f);
+
         playerAnimator.SetLayerWeight(1, 0);
         Time.timeScale = 1.0f;
+    }
+
+    IEnumerator CountDown()
+    {
+        countDownNumber.SetActive(true);
+
+        count = 3;
+
+        while(count > 0)
+        {
+            countDownNumber.GetComponent<TextMeshProUGUI>().text = count.ToString();
+            countDownNumber.GetComponent<Animator>().Play("Count Down");
+            yield return new WaitForSecondsRealtime(1f);
+            count--;
+        }
+
+        countDownNumber.SetActive(false);
     }
 }

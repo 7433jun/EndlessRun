@@ -12,6 +12,8 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] GameObject countDownNumber;
     int count;
 
+    WaitForSecondsRealtime waitForSecondRealtime = new WaitForSecondsRealtime(1f);
+
     void Start()
     {
         GameOver();
@@ -34,11 +36,14 @@ public class GameManager : Singleton<GameManager>
 
     IEnumerator StartWait()
     {
-        yield return new WaitForSecondsRealtime(2f);
+        yield return waitForSecondRealtime;
+        yield return waitForSecondRealtime;
 
         StartCoroutine(CountDown());
 
-        yield return new WaitForSecondsRealtime(3f);
+        yield return waitForSecondRealtime;
+        yield return waitForSecondRealtime;
+        yield return waitForSecondRealtime;
 
         playerAnimator.SetLayerWeight(1, 0);
         Time.timeScale = 1.0f;
@@ -54,7 +59,7 @@ public class GameManager : Singleton<GameManager>
         {
             countDownNumber.GetComponent<TextMeshProUGUI>().text = count.ToString();
             countDownNumber.GetComponent<Animator>().Play("Count Down");
-            yield return new WaitForSecondsRealtime(1f);
+            yield return waitForSecondRealtime;
             count--;
         }
 

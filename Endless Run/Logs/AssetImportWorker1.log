@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/EndlessRun/Endless Run
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61392
+49980
 Successfully changed project path to: C:/Users/Administrator/Desktop/EndlessRun/Endless Run
 C:/Users/Administrator/Desktop/EndlessRun/Endless Run
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Administrator/Desktop/EndlessRun/Endless Run
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19592] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 2585491571 [EditorId] 2585491571 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EAQT5PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14792] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 619907498 [EditorId] 619907498 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EAQT5PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19592] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 2585491571 [EditorId] 2585491571 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EAQT5PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14792] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 619907498 [EditorId] 619907498 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EAQT5PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 65.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,74 +67,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.083445 seconds.
+Registered in 0.003293 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.381 seconds
+- Completed reload, in  0.502 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4381ms)
-		BeginReloadAssembly (3307ms)
+	ReloadAssembly (502ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (722ms)
-			LoadAssemblies (3305ms)
+		EndReloadAssembly (359ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (444ms)
+			SetupTypeCache (85ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (214ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (210ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (66ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003563 seconds.
+Registered in 0.003520 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\EndlessRun\Endless Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\EndlessRun\Endless Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.386 seconds
+- Completed reload, in  0.793 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3387ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (794ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (3166ms)
-			LoadAssemblies (2205ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (626ms)
+			SetupTypeCache (218ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (275ms)
+			SetupLoadedEditorAssemblies (266ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (185ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (175ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3541.
-Memory consumption went from 111.1 MB to 110.9 MB.
-Total: 2.994600 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.239200 ms MarkObjects: 2.406500 ms  DeleteObjects: 0.091600 ms)
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3540.
+Memory consumption went from 111.0 MB to 110.9 MB.
+Total: 2.441000 ms (FindLiveObjects: 0.248600 ms CreateObjectMapping: 0.179500 ms MarkObjects: 1.925300 ms  DeleteObjects: 0.087000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,204 +163,328 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 383862.467214 seconds.
-  path: Assets/Prefabs/Item
-  artifactKey: Guid(60eb3637a0a849349ac5929fe79526d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item using Guid(60eb3637a0a849349ac5929fe79526d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4f1dc5759c41886962d3e43cff27c4') in 0.010571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(3d78e0837f3d0a14aa41bfba7947d524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(3d78e0837f3d0a14aa41bfba7947d524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e18a2aad1020779f59987efc61a0a9') in 0.006622 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003216 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\EndlessRun\Endless Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\EndlessRun\Endless Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.751 seconds
-Domain Reload Profiling:
-	ReloadAssembly (751ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (550ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (223ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (80.4 KB). Loaded Objects now: 3543.
-Memory consumption went from 109.6 MB to 109.5 MB.
-Total: 2.169300 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.132500 ms MarkObjects: 1.750200 ms  DeleteObjects: 0.068600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1389.283926 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color02.mat
-  artifactKey: Guid(ba66acee62948c24baacd1186810d424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color02.mat using Guid(ba66acee62948c24baacd1186810d424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fd82ee7f384b8240ac64a8bc12c094') in 0.126185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color01.mat
-  artifactKey: Guid(d0b99db790965dc40a437662f169eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color01.mat using Guid(d0b99db790965dc40a437662f169eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b808e4920505ae55604913d7d2d2b4') in 0.013855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color01.mat
-  artifactKey: Guid(ca3609b9bffbfb14ab8e97e2329ad3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color01.mat using Guid(ca3609b9bffbfb14ab8e97e2329ad3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ae32944bae587e4e49ca98092ff283') in 0.019989 seconds 
+  Time since last request: 640728.266874 seconds.
+  path: Assets/AurynSky/Forest Pack/Textures/ColorPaletteNormal.png
+  artifactKey: Guid(5d607b30e410f964a9389dfbb7223cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Textures/ColorPaletteNormal.png using Guid(5d607b30e410f964a9389dfbb7223cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee392efabac11d70fa245a4c14cb496d') in 0.094189 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_RoofProps.mat
-  artifactKey: Guid(9e031cf10ecdeb64486f21e9f55ffcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_RoofProps.mat using Guid(9e031cf10ecdeb64486f21e9f55ffcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab543fc8d37e51a6a321f2203b98127c') in 0.019946 seconds 
+  path: Assets/AurynSky/Forest Pack/Textures/Water.psd
+  artifactKey: Guid(25315fb78afed0e4b9a0e1681097767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Textures/Water.psd using Guid(25315fb78afed0e4b9a0e1681097767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1414ad42e6147e513973ea964df4c43a') in 0.021132 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Super Market.mat
-  artifactKey: Guid(50a5ebe9a8d86a04d8e3b59966418b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Super Market.mat using Guid(50a5ebe9a8d86a04d8e3b59966418b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102308ff52d275dd71fcd5230a078ffe') in 0.011126 seconds 
+  Time since last request: 34.895348 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color01.mat
+  artifactKey: Guid(c55cd13c983151f488686d50353a716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color01.mat using Guid(c55cd13c983151f488686d50353a716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c024263ec40cf4ae998c7b2b90be053') in 0.074652 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Shoes Shop.mat
-  artifactKey: Guid(25119463e811d3c4c82a0d92a6e1c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Shoes Shop.mat using Guid(25119463e811d3c4c82a0d92a6e1c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b86fe1880b8a6de5aa770fd9d976049') in 0.011161 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color03.mat
+  artifactKey: Guid(5e29c495f3970b64f9d09ce50f034ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color03.mat using Guid(5e29c495f3970b64f9d09ce50f034ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7d6140512691aa8f12de4ddd7e4f6d') in 0.018681 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color03.mat
-  artifactKey: Guid(c622c6f6cb906dd47b5fd1368346e0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color03.mat using Guid(c622c6f6cb906dd47b5fd1368346e0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0ec4a7f834b327067342216ca416ed') in 0.019541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color03.mat
-  artifactKey: Guid(ecb113d6169c1ea49ae708ac05a9128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color03.mat using Guid(ecb113d6169c1ea49ae708ac05a9128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3bb5e5dfbeb767f2eec6280be6a48a') in 0.019368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color02.mat
-  artifactKey: Guid(759ae00b1dd8b674794d18b46f674c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color02.mat using Guid(759ae00b1dd8b674794d18b46f674c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05f2ec04a6991b7d9ca4d06d947cb89') in 0.022385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Fast Food.mat
-  artifactKey: Guid(0c04fafcb420315419fdbbeb0fb78464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Fast Food.mat using Guid(0c04fafcb420315419fdbbeb0fb78464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaa5929f1786d1a9351229675d72545') in 0.020845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Coffee Shop.mat
-  artifactKey: Guid(4967bea7482277d48955ef26a2a50c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Coffee Shop.mat using Guid(4967bea7482277d48955ef26a2a50c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad478dd4e99fb8eff57a53242d3d8115') in 0.013270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Bar.mat
-  artifactKey: Guid(1a8b38fa8ecb06d4b8eadffe456fd574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Bar.mat using Guid(1a8b38fa8ecb06d4b8eadffe456fd574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee42c8f4f982d540962b77021e0299bd') in 0.015952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Fruits  Shop.mat
-  artifactKey: Guid(ae4c28532c8b3154a80bef6e9ca5939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Fruits  Shop.mat using Guid(ae4c28532c8b3154a80bef6e9ca5939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08e49d4b22b5e7739530f0ebbcb5cf1') in 0.024005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Natures.mat
-  artifactKey: Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Natures.mat using Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a7dae3ee3b5ba9b6d4237b00850db0') in 0.011591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Pizza.mat
-  artifactKey: Guid(98387a5e673a6ab4dbed345505f5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Pizza.mat using Guid(98387a5e673a6ab4dbed345505f5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8926e1b679ef65e6bd52f6ad3295f057') in 0.011373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Gift Shop.mat
-  artifactKey: Guid(bf630e064503ad541ab39df076952029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Gift Shop.mat using Guid(bf630e064503ad541ab39df076952029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de346081b4ef456c05f0adcd83a34af3') in 0.023727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color03.mat
-  artifactKey: Guid(b6d73c7816cc2914d8f49ccc54d19714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color03.mat using Guid(b6d73c7816cc2914d8f49ccc54d19714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ebb72d916cb1a90d260d81c8ad0f54') in 0.021719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color03.mat
-  artifactKey: Guid(8f1cbf7d8b46f0c44ab5e32bfc3041a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color03.mat using Guid(8f1cbf7d8b46f0c44ab5e32bfc3041a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbd252eaadede3c931fc58c8afab01a') in 0.020401 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color02.mat
+  artifactKey: Guid(6635f2e276b1e904bb60b1e67d0853da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color02.mat using Guid(6635f2e276b1e904bb60b1e67d0853da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7157b6dc6263bc415c05b5e833e9c371') in 0.018343 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color01.mat
-  artifactKey: Guid(2016355b121a1d141a5a696a5e1a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color01.mat using Guid(2016355b121a1d141a5a696a5e1a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3359924c68d71806fe15033d5c5a3c57') in 0.012645 seconds 
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color03.mat
+  artifactKey: Guid(37608e6988151a248951cdd1a93a59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color03.mat using Guid(37608e6988151a248951cdd1a93a59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4523b739272f0edf7e60e9a9373e01c5') in 0.016752 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color03.mat
-  artifactKey: Guid(0ee6e621355b5ac4da1102c54fbb63d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color03.mat using Guid(0ee6e621355b5ac4da1102c54fbb63d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fe05b3239351731b135fcdc07faf46') in 0.015518 seconds 
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Police Car.mat
+  artifactKey: Guid(ca1eb6db662c95e47b63cb150cf463f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Police Car.mat using Guid(ca1eb6db662c95e47b63cb150cf463f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06a9dd8e72f45c1baa68c469dd8f2b8') in 0.016590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 197.077620 seconds.
+  path: Assets/Hovl Studio/Resources
+  artifactKey: Guid(f553b207639f79549bc12ac8a2681eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources using Guid(f553b207639f79549bc12ac8a2681eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2e072023fe6d020c2fcf1dedafe347') in 0.006397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.959557 seconds.
+  path: Assets/FanyasyStatusIcons/Light.png
+  artifactKey: Guid(e5b51ba7873f8e549b768426dfb067cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FanyasyStatusIcons/Light.png using Guid(e5b51ba7873f8e549b768426dfb067cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d73255ab4c6ea6ea215988cb34ac6fb') in 0.042177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.823529 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline
+  artifactKey: Guid(2aa009d155f61f441acb7b54f5a8fe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline using Guid(2aa009d155f61f441acb7b54f5a8fe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c758a8f4b21b50c5b36659fcb3f434b8') in 0.006365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076146 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelBlue_00.png
+  artifactKey: Guid(4fb9f67910e50d44ca9c91a218593b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelBlue_00.png using Guid(4fb9f67910e50d44ca9c91a218593b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1740207faa58a79e90370063a2bbc8f5') in 0.014832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestBlue_00.png
+  artifactKey: Guid(998da6a559a176f408c1455ca2e250ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestBlue_00.png using Guid(998da6a559a176f408c1455ca2e250ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb748ec0a8da9302d7bd87ccad84282c') in 0.025038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGreen_00.png
+  artifactKey: Guid(df20f90b61468cf46ac30fb4d258bdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGreen_00.png using Guid(df20f90b61468cf46ac30fb4d258bdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a820ef2f50f35c3ca1e5632e8bc71fb5') in 0.013918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_00.png
+  artifactKey: Guid(5775109fdaceec14bacc8fa0025883a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_00.png using Guid(5775109fdaceec14bacc8fa0025883a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceb582f3ebdfa9d539ec04d4a9b6529') in 0.010577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartPurple_00.png
+  artifactKey: Guid(accc512d8b38f394aa4cf98b48739728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartPurple_00.png using Guid(accc512d8b38f394aa4cf98b48739728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130c0996651abf3f949d7df160e6abc2') in 0.010551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_00.png
+  artifactKey: Guid(40ec6c6ab3fa68a478a5092ae1598716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_00.png using Guid(40ec6c6ab3fa68a478a5092ae1598716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2307028f12e0c8337635f5b1f554cda1') in 0.022902 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Chicken Shop.mat
-  artifactKey: Guid(d15e38c8ed480004fbb959137225b569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Chicken Shop.mat using Guid(d15e38c8ed480004fbb959137225b569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d971000a77ac301d7711925c673172') in 0.021210 seconds 
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_02.png
+  artifactKey: Guid(151074cac6b290e418b03b20c5e2c6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_02.png using Guid(151074cac6b290e418b03b20c5e2c6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df0e94fb2bae03ea89b01c99a84b0ba') in 0.012891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_01.png
+  artifactKey: Guid(b11b9cfda6a1c3e40bbfc86f6679be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_01.png using Guid(b11b9cfda6a1c3e40bbfc86f6679be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc1ea7ea7ead3cb02b4945a875e11ee') in 0.010627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_01.png
+  artifactKey: Guid(aea25ed5f86cab246ac2abb823cb999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_01.png using Guid(aea25ed5f86cab246ac2abb823cb999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5885874ebb7f168ad1be6fb7d6584e51') in 0.010805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_01.png
+  artifactKey: Guid(891b417b9d32c9244a95ade4212d6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_01.png using Guid(891b417b9d32c9244a95ade4212d6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa4d553c1a8511e87563f68cf7e0402') in 0.011917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_01.png
+  artifactKey: Guid(896b834b8d11cca4b8293dd8e75d2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_01.png using Guid(896b834b8d11cca4b8293dd8e75d2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84686799913119453e1f84c301863d9') in 0.010901 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color03.mat
-  artifactKey: Guid(503a5bca82bfa754d93ab882c47b76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color03.mat using Guid(503a5bca82bfa754d93ab882c47b76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c570a344d16e4f976bb41b9f6af5568') in 0.021100 seconds 
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_02.png
+  artifactKey: Guid(642c9aabc6c34a44fb748967f149019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_02.png using Guid(642c9aabc6c34a44fb748967f149019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38411f751dfecf052915ad014fb67019') in 0.011604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_02.png
+  artifactKey: Guid(6edd092ef6bfd8445b7c4fc81d9c240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_02.png using Guid(6edd092ef6bfd8445b7c4fc81d9c240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242ba9900f5978dfbdb07692710b796c') in 0.057807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_01.png
+  artifactKey: Guid(1c03cba2df0c2f5489583ca1ad01cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_01.png using Guid(1c03cba2df0c2f5489583ca1ad01cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2f1e705a6628d32ebe37980aa9d12c') in 0.010583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_00.png
+  artifactKey: Guid(d19ccb8e619c9324487328c4f83f7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_00.png using Guid(d19ccb8e619c9324487328c4f83f7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc22d4f9009f0609396c9b59708c32e') in 0.010568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_01.png
+  artifactKey: Guid(e055b4cdff7e1324495f5cba57fbcb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_01.png using Guid(e055b4cdff7e1324495f5cba57fbcb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5adf5d8f66d041caf91e5f6dc684818') in 0.018369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_00.png
+  artifactKey: Guid(2f605f8487435b64780f2f663cc01c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_00.png using Guid(2f605f8487435b64780f2f663cc01c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d58b401c3e1753dd72e252c1030e2f8') in 0.010736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_00.png
+  artifactKey: Guid(16a19be914363964790a17ef8b0bb192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_00.png using Guid(16a19be914363964790a17ef8b0bb192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0455516b26266babc67914fbafcbfd') in 0.011723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelRed_00.png
+  artifactKey: Guid(15fd679098c39bd4890d7e0cd1d49d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelRed_00.png using Guid(15fd679098c39bd4890d7e0cd1d49d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9653137377039480d737a8e99ba9284') in 0.012884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGold_00.png
+  artifactKey: Guid(d9c66f7849c970e4c8d3447141d6d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGold_00.png using Guid(d9c66f7849c970e4c8d3447141d6d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296c83fd910b5278f0520c42f032b42f') in 0.010974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGreen_00.png
+  artifactKey: Guid(8efcec33cbef00a4891b69af35df1b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGreen_00.png using Guid(8efcec33cbef00a4891b69af35df1b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869f2ae9dd67d6f9073de9fbf1a28228') in 0.013977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinRed_00.png
+  artifactKey: Guid(436d8a990a1a0ad4fa3e3239c39a361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinRed_00.png using Guid(436d8a990a1a0ad4fa3e3239c39a361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21b29ddef48cf8efff57012827f57fe') in 0.012872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_01.png
+  artifactKey: Guid(c01f7a293883d3a408c2a84b25f48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_01.png using Guid(c01f7a293883d3a408c2a84b25f48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d2467e86d80dfc9df0be962b1019a0') in 0.010093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.750825 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinBlue_00.png
+  artifactKey: Guid(3216d0639c0c48946ace1611c27381c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinBlue_00.png using Guid(3216d0639c0c48946ace1611c27381c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4ca4ba737d386a2681f4a2dcf786ed') in 0.013796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_02.png
+  artifactKey: Guid(9d4876b2fb3f71a4096454de5f85a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_02.png using Guid(9d4876b2fb3f71a4096454de5f85a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1058c2d4358fac919d52623d080cd4fc') in 0.011241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartBlue_00.png
+  artifactKey: Guid(150281c69eb43b94b9c15cae75464a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartBlue_00.png using Guid(150281c69eb43b94b9c15cae75464a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd328ca8928f057afa721e0e0b1848b8') in 0.011005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_01.png
+  artifactKey: Guid(f56f812c8c2e0514b8a1113b595afb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_01.png using Guid(f56f812c8c2e0514b8a1113b595afb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee53d216b84ecce3deba0aa385ea2a9') in 0.010588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinRed_00.png
+  artifactKey: Guid(4ca860b8f3d16674984a376c1401a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinRed_00.png using Guid(4ca860b8f3d16674984a376c1401a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15086196190733b159e9f08a9b127d5e') in 0.010115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_01.png
+  artifactKey: Guid(3bb4f6230f817c24485cea9e9511dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_01.png using Guid(3bb4f6230f817c24485cea9e9511dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9931c504ef91dda94fb9893ee8e48c7') in 0.011131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_00.png
+  artifactKey: Guid(c8bdd335029a8294689a5fb138a9cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_00.png using Guid(c8bdd335029a8294689a5fb138a9cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17d2d414d3b02820480cb2eb7fe6061') in 0.011070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_02.png
+  artifactKey: Guid(f71567b37e8375c4ea0b7a3094fef493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_02.png using Guid(f71567b37e8375c4ea0b7a3094fef493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0947888d7c5ea6b2e91e84bbdc1976e8') in 0.026921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_01.png
+  artifactKey: Guid(d8ef600d59c84444c9013fc5e0278f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_01.png using Guid(d8ef600d59c84444c9013fc5e0278f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210ea9020fff6c01678be6f505ac19f3') in 0.014129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_01.png
+  artifactKey: Guid(b59a71db9878ce648a8338095027dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_01.png using Guid(b59a71db9878ce648a8338095027dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e690e3f9cb94ddeef68a31b988cc205d') in 0.013921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinPurple_00.png
+  artifactKey: Guid(06121c73941905f4c96a07e46ccef8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinPurple_00.png using Guid(06121c73941905f4c96a07e46ccef8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a0e7e4eeb8852a57fe653d30b0ef26') in 0.012885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_00.png
+  artifactKey: Guid(a1fbccd8f2527154da31359cf7bf87be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_00.png using Guid(a1fbccd8f2527154da31359cf7bf87be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eab7ffc2a4461ff72303ae1e35c609f') in 0.014332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.269599 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinBlue_00.png
+  artifactKey: Guid(e51331a95da8f4c4f93a1172063345fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinBlue_00.png using Guid(e51331a95da8f4c4f93a1172063345fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb4bc9a107e210b65f53bbfc9b1f73c') in 0.013196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinRed_00.png
+  artifactKey: Guid(ee180329dcbf39340894f49a646df1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinRed_00.png using Guid(ee180329dcbf39340894f49a646df1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43872f3d9a066ad241880f60c4237922') in 0.011667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinPurple_00.png
+  artifactKey: Guid(1d1094167457a3443b9d0d16e673aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinPurple_00.png using Guid(1d1094167457a3443b9d0d16e673aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05dc393f88477f8382c9497a4300f8d') in 0.011112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_01.png
+  artifactKey: Guid(2d9f2cf1e49d6e441ae1a83d842e2722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_01.png using Guid(2d9f2cf1e49d6e441ae1a83d842e2722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365aaea05d31652cffff88ae4c2d6a8f') in 0.011409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartGold_00.png
+  artifactKey: Guid(a3593f4726e4c414294d349cf7c07316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartGold_00.png using Guid(a3593f4726e4c414294d349cf7c07316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc2c81b9ebc11cb2ad4f7eb789f4107') in 0.012414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_00.png
+  artifactKey: Guid(6ac74b0e3aa9f0e4693ac30504573201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_00.png using Guid(6ac74b0e3aa9f0e4693ac30504573201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4454779a91bc41454eec36b0119c5ed6') in 0.010495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_02.png
+  artifactKey: Guid(3167e107b47c92e45a9374f88953048f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_02.png using Guid(3167e107b47c92e45a9374f88953048f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da6f9c82dc3c80bbf99ae9b9e3af105') in 0.010940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartRed_00.png
+  artifactKey: Guid(23565949412127044ace543e892409b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartRed_00.png using Guid(23565949412127044ace543e892409b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbddce6c6601610f0949725ae88469dc') in 0.015097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_01.png
+  artifactKey: Guid(e57e38e969e13584f8f8a1125bbc0df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_01.png using Guid(e57e38e969e13584f8f8a1125bbc0df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e92bad2bd29d8f86e6f8fa0339f76cc') in 0.013606 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

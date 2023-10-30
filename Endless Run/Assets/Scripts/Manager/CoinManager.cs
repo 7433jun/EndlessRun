@@ -59,6 +59,7 @@ public class CoinManager : MonoBehaviour
     {
         coinLootTransform.SetActive(true);
         transform.localPosition = new Vector3((rand.Next(3) - 1) * moveLength, 0, 0);
+
         foreach(var item in coinList)
         {
             item.gameObject.SetActive(true);

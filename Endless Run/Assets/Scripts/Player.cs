@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && Time.timeScale != 0)
         {
             AudioManager.instance.Sound(objectSound.audioClip[0]);
 
@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
             SetPosition();
         }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) && Time.timeScale != 0)
         {
             AudioManager.instance.Sound(objectSound.audioClip[0]);
 

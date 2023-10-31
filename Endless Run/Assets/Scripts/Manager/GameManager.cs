@@ -36,14 +36,11 @@ public class GameManager : Singleton<GameManager>
 
     IEnumerator StartWait()
     {
-        yield return waitForSecondRealtime;
-        yield return waitForSecondRealtime;
+        yield return new WaitForSecondsRealtime(2f);
 
         StartCoroutine(CountDown());
 
-        yield return waitForSecondRealtime;
-        yield return waitForSecondRealtime;
-        yield return waitForSecondRealtime;
+        yield return new WaitForSecondsRealtime(3f);
 
         playerAnimator.SetLayerWeight(1, 0);
         Time.timeScale = 1.0f;

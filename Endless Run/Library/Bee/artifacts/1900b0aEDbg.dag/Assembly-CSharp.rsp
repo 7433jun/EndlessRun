@@ -345,7 +345,21 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/etc/CollisionBox.cs"
+"Assets/Scripts/etc/ObjectSound.cs"
+"Assets/Scripts/Items/Coin.cs"
+"Assets/Scripts/Items/Item.cs"
+"Assets/Scripts/Items/Magnet.cs"
+"Assets/Scripts/Manager/AudioManager.cs"
+"Assets/Scripts/Manager/ButtonManager.cs"
+"Assets/Scripts/Manager/CoinManager.cs"
+"Assets/Scripts/Manager/GameManager.cs"
+"Assets/Scripts/Manager/InterfaceManager.cs"
+"Assets/Scripts/Manager/ItemManager.cs"
+"Assets/Scripts/Manager/RoadManager.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Singleton.cs"
+"Assets/Scripts/Util.cs"
 -langversion:9.0
 
 /deterministic

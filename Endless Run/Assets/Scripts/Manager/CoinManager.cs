@@ -15,6 +15,8 @@ public class CoinManager : MonoBehaviour
     List<GameObject> coinList = new List<GameObject>();
     List<GameObject> SpecialItemList = new List<GameObject>();
 
+    [SerializeField] ItemManager itemManager;
+
     private float moveLength = 3.5f;
     int itemSpawnRate = 30; //아이템 생성 퍼센트
     System.Random rand = new System.Random();
@@ -25,6 +27,8 @@ public class CoinManager : MonoBehaviour
         coinList.Capacity = createCount;
         CreateItem();
         coinLootTransform.SetActive(false);
+
+        itemManager = GameObject.Find("Item Manager").GetComponent<ItemManager>();
     }
 
     public void CreateItem()
@@ -52,6 +56,8 @@ public class CoinManager : MonoBehaviour
             SpecialItemList[0].transform.position = coinList[itemIndex].transform.position;
             coinList[itemIndex].SetActive(false);
             SpecialItemList[0].SetActive(true);
+
+
         }
     }
 

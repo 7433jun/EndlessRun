@@ -358,6 +358,7 @@
 "Assets/Scripts/Manager/RoadManager.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Singleton.cs"
+"Assets/Scripts/Util.cs"
 -langversion:9.0
 
 /deterministic

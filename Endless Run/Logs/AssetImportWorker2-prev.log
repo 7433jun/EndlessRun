@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/EndlessRun/Endless Run
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61392
+49980
 Successfully changed project path to: C:/Users/Administrator/Desktop/EndlessRun/Endless Run
 C:/Users/Administrator/Desktop/EndlessRun/Endless Run
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Administrator/Desktop/EndlessRun/Endless Run
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7188] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1491759094 [EditorId] 1491759094 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EAQT5PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12212] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1450131389 [EditorId] 1450131389 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EAQT5PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7188] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1491759094 [EditorId] 1491759094 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EAQT5PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12212] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1450131389 [EditorId] 1450131389 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EAQT5PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 74.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,31 +67,31 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003525 seconds.
+Registered in 0.003358 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.512 seconds
+- Completed reload, in  0.497 seconds
 Domain Reload Profiling:
-	ReloadAssembly (513ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (498ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (355ms)
-			LoadAssemblies (77ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (84ms)
+			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (208ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (209ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
@@ -105,36 +105,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003413 seconds.
+Registered in 0.003467 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\EndlessRun\Endless Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\EndlessRun\Endless Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.784 seconds
+- Completed reload, in  0.773 seconds
 Domain Reload Profiling:
-	ReloadAssembly (785ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (604ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (598ms)
 			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (175ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (172ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3540.
-Memory consumption went from 111.1 MB to 110.9 MB.
-Total: 2.609000 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.166800 ms MarkObjects: 2.107000 ms  DeleteObjects: 0.092300 ms)
+Memory consumption went from 111.0 MB to 110.9 MB.
+Total: 2.535000 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.171800 ms MarkObjects: 2.034500 ms  DeleteObjects: 0.090600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,267 +163,29 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 385361.408294 seconds.
-  path: Assets/Prefabs/Variants/Barriar.prefab
-  artifactKey: Guid(140df1d320a5d2a429d8d6edf31d6914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Barriar.prefab using Guid(140df1d320a5d2a429d8d6edf31d6914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9351248073086f5a9d3c51d0d5c040e7') in 0.088124 seconds 
+  Time since last request: 640762.583945 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials
+  artifactKey: Guid(32e56afb74082ca4c8b1768f490d90cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials using Guid(32e56afb74082ca4c8b1768f490d90cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28be70156c612f25552df9f35dabfaa1') in 0.005894 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.032528 seconds.
-  path: Assets/Prefabs/Variants/Barriar Variant.prefab
-  artifactKey: Guid(668be8d666dd22f4d91b2967d1c4b6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Barriar Variant.prefab using Guid(668be8d666dd22f4d91b2967d1c4b6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7521559a4fa393ba1a9bb3e500ae1aaf') in 0.010734 seconds 
+  Time since last request: 0.691279 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color02.mat
+  artifactKey: Guid(1ff3955181d667949a055e4e15ec3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color02.mat using Guid(1ff3955181d667949a055e4e15ec3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9389ecb033d29f6422ecf7489c8bb3e7') in 0.113193 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.752972 seconds.
-  path: Assets/Prefabs/Variants/Fence.prefab
-  artifactKey: Guid(e916bd44612b3c34f90d91969e56cd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Fence.prefab using Guid(e916bd44612b3c34f90d91969e56cd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6c138d21727be92374086bd24ff44b') in 0.010700 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color01.mat
+  artifactKey: Guid(992fb1e4bf06a5b488783670728d3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color01.mat using Guid(992fb1e4bf06a5b488783670728d3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc29297dea0ab07a6c75b2987ec99fbc') in 0.018574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.634773 seconds.
-  path: Assets/Prefabs/Variants/Fence Variant.prefab
-  artifactKey: Guid(5f32aaa5118730e47b87502554165b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Fence Variant.prefab using Guid(5f32aaa5118730e47b87502554165b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc4bc98f7eea19750ad8f3f8504ad18') in 0.011120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.205768 seconds.
-  path: Assets/Prefabs/Variants/Fence Variant 1.prefab
-  artifactKey: Guid(2b87495298beeac40ab4bbea864ee76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Fence Variant 1.prefab using Guid(2b87495298beeac40ab4bbea864ee76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7241d6ee19aeed9a79a1768e62548ead') in 0.013637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.948530 seconds.
-  path: Assets/Prefabs/Variants/Roof Variant.prefab
-  artifactKey: Guid(2b87495298beeac40ab4bbea864ee76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Roof Variant.prefab using Guid(2b87495298beeac40ab4bbea864ee76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eac1c81c81e6526c494ebc0ec732e5') in 0.013753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.362980 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Road Tile.fbx
-  artifactKey: Guid(7b654bd76adcefd44b4799d4290822fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Road Tile.fbx using Guid(7b654bd76adcefd44b4799d4290822fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999c100aa9688ea4636997150794cd66') in 0.061706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/HorrorPuzzleItems/SmallKey/Models/SmallKey.fbx
-  artifactKey: Guid(501a19826a840da4a93f946d0d749a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/SmallKey/Models/SmallKey.fbx using Guid(501a19826a840da4a93f946d0d749a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549eed2c8c868fd0884c86553f036357') in 0.016842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.872379 seconds.
-  path: Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx
-  artifactKey: Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx using Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef09539bcf26b46f7be34e88c7b27e50') in 0.016099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.702330 seconds.
-  path: Assets/Hovl Studio/Magic effects pack/Materials/Mask1.mat
-  artifactKey: Guid(96d60590d2a3f0143a9a84d4568d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic effects pack/Materials/Mask1.mat using Guid(96d60590d2a3f0143a9a84d4568d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b75c55904fe3992d5d37728375be798') in 0.041115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Yellow.mat
-  artifactKey: Guid(5e5c7895edf99524589e2deb11d75cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Yellow.mat using Guid(5e5c7895edf99524589e2deb11d75cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a050525eb7ad1d4a968cfc395f0cc1') in 0.044908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat
-  artifactKey: Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat using Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496629d1c872a9ed16f152713f7043f6') in 0.046507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Blue.mat
-  artifactKey: Guid(443ba7ac5b1be664fa49b913f7b25087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Blue.mat using Guid(443ba7ac5b1be664fa49b913f7b25087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46c3f0cd152a15cd047b5b226fec226') in 0.026691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AurynSky/Forest Pack/Materials/ShowCase.mat
-  artifactKey: Guid(ce6846b6b5ba77f4e83630cc67fcd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Materials/ShowCase.mat using Guid(ce6846b6b5ba77f4e83630cc67fcd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9169ab7ec53f871c21c8a27ae5528358') in 0.016176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat
-  artifactKey: Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat using Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03362b4d7a2c55802ff40192457ebbca') in 0.011469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Road.mat
-  artifactKey: Guid(faa0cd7e7e1757945a22cce35d7069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Road.mat using Guid(faa0cd7e7e1757945a22cce35d7069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467e8d4ac7beb0411a1342d70f026092') in 0.010907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Road Concrete Tile.mat
-  artifactKey: Guid(791087fbdef01f44fb204ef3dc5e6db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Road Concrete Tile.mat using Guid(791087fbdef01f44fb204ef3dc5e6db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dce8a5d7400ec9b46ca1c06e6ea6f5e') in 0.029259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/HorrorPuzzleItems/Valve/Materials/Valve.mat
-  artifactKey: Guid(ccf62083214921745a874a47a5a86561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/Valve/Materials/Valve.mat using Guid(ccf62083214921745a874a47a5a86561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f9d3b503ea77b7e9210ee7c58ee86b') in 0.021678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_TrafficProps.mat
-  artifactKey: Guid(0ea03c6aa98d5224cb797d69c8ef34ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_TrafficProps.mat using Guid(0ea03c6aa98d5224cb797d69c8ef34ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc752819fd930ed3a7ef6e4bc776cfa') in 0.020661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Hovl Studio/Magic effects pack/Materials/Trail67.mat
-  artifactKey: Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic effects pack/Materials/Trail67.mat using Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fef0dd416636e27c03a4ed63735900') in 0.015243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.518737 seconds.
-  path: Assets/Prefabs/Variants/Fence Variant.prefab
-  artifactKey: Guid(5f32aaa5118730e47b87502554165b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Fence Variant.prefab using Guid(5f32aaa5118730e47b87502554165b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc317bd0f5b97a0ef43cf35e2bf63b6') in 0.003460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.604318 seconds.
-  path: Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle.mat
-  artifactKey: Guid(ddac23d301cbfca45bcbe217c05f0141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle.mat using Guid(ddac23d301cbfca45bcbe217c05f0141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69bb5dcd7787b64603404d96bb13acb') in 0.015405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/HorrorPuzzleItems/Lighter/Materials/Lighter_FlowerPattern.mat
-  artifactKey: Guid(f6a7c471bff72e844873eaa4584bfb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/Lighter/Materials/Lighter_FlowerPattern.mat using Guid(f6a7c471bff72e844873eaa4584bfb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec6ab7376b99fd2f1efdb890df1aaae') in 0.023069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/HorrorPuzzleItems/Gear/Materials/Gear.mat
-  artifactKey: Guid(6159b18e2a608f840a7035db137cd20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/Gear/Materials/Gear.mat using Guid(6159b18e2a608f840a7035db137cd20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65032ff101f3bd9c32ecb17bef07517d') in 0.026412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/HorrorPuzzleItems/Floppy/Materials/Floppy_Red.mat
-  artifactKey: Guid(3129e1974cd8b5f4289f8dd8a6efac06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/Floppy/Materials/Floppy_Red.mat using Guid(3129e1974cd8b5f4289f8dd8a6efac06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0bfcb2c47603fa0b128c683b5b568c') in 0.023531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AurynSky/Forest Pack/Materials/ColorPaletteBLUE.mat
-  artifactKey: Guid(e77b003cd8771304abfc74dd93c9f934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Materials/ColorPaletteBLUE.mat using Guid(e77b003cd8771304abfc74dd93c9f934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b323f35f89d091ea306842ed393ac310') in 0.025641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AurynSky/Forest Pack/Materials/CubeParticles.mat
-  artifactKey: Guid(55d3cd30aa20d634f8c2388d479742d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Materials/CubeParticles.mat using Guid(55d3cd30aa20d634f8c2388d479742d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db39158a0f7a0e292398bb2e5f78f1d4') in 0.038909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/HorrorPuzzleItems/Gem/Materials/Gem_Red.mat
-  artifactKey: Guid(f7bb5bc051f54134fb73c705cfd57f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/Gem/Materials/Gem_Red.mat using Guid(f7bb5bc051f54134fb73c705cfd57f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cf92f8fdca1b2008e767993d40d427') in 0.026860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat
-  artifactKey: Guid(4bab0f95134663b4c9c3dd73939c0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat using Guid(4bab0f95134663b4c9c3dd73939c0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa9094146a79b75389e02dd7e68604c') in 0.015160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048384 seconds.
-  path: Assets/HorrorPuzzleItems/Cable/Materials/Cable_Black.mat
-  artifactKey: Guid(b49f48605560daa499a6520d007a5f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/Cable/Materials/Cable_Black.mat using Guid(b49f48605560daa499a6520d007a5f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da55285fad60129e3192270c0f5cd9ee') in 0.020953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/HorrorPuzzleItems/Card/Materials/Card_Security.mat
-  artifactKey: Guid(e46113138ffd93d48ad72c93a5a3c6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/Card/Materials/Card_Security.mat using Guid(e46113138ffd93d48ad72c93a5a3c6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298455e6dc207ee2bf552792a672b793') in 0.021639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.220032 seconds.
-  path: Assets/HorrorPuzzleItems/Battery/Materials/Battery.mat
-  artifactKey: Guid(4b4e7c8ebe0a44c4a9c380537c434565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorPuzzleItems/Battery/Materials/Battery.mat using Guid(4b4e7c8ebe0a44c4a9c380537c434565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397f3414723525671618085c835257a3') in 0.010329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.862547 seconds.
-  path: Assets/Prefabs/Variants/Roof Variant.prefab
-  artifactKey: Guid(2b87495298beeac40ab4bbea864ee76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Roof Variant.prefab using Guid(2b87495298beeac40ab4bbea864ee76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c438243afa7c7c4cdc90e3873167f5') in 0.002660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 89.579807 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Pick up Truck_color02.mat
-  artifactKey: Guid(94d51beb0fcd7044885fa789ac899eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Pick up Truck_color02.mat using Guid(94d51beb0fcd7044885fa789ac899eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0765116fae32404980e1698fc27d3dbb') in 0.019955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 103.333575 seconds.
-  path: Assets/Prefabs/Variants/Roof Variant.prefab
-  artifactKey: Guid(2b87495298beeac40ab4bbea864ee76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Variants/Roof Variant.prefab using Guid(2b87495298beeac40ab4bbea864ee76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602d6f49242102985388c75c53ee8944') in 0.007758 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003839 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\EndlessRun\Endless Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\EndlessRun\Endless Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
-Domain Reload Profiling:
-	ReloadAssembly (756ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (558ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (223ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (80.4 KB). Loaded Objects now: 3589.
-Memory consumption went from 114.4 MB to 114.3 MB.
-Total: 2.271500 ms (FindLiveObjects: 0.213400 ms CreateObjectMapping: 0.121500 ms MarkObjects: 1.872900 ms  DeleteObjects: 0.063100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color01.mat
+  artifactKey: Guid(c0172b2eebb55f74bbb355a1b1fe0557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color01.mat using Guid(c0172b2eebb55f74bbb355a1b1fe0557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff8dd641e8ca14cc42e9296695d8d2f') in 0.015537 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

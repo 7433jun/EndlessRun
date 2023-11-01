@@ -49,12 +49,17 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        IItem item= other.GetComponent<IItem>();
+        IItem item = other.GetComponent<IItem>();
 
         if (item != null)
         {
             item.Use();
             other.gameObject.SetActive(false);
+        }
+
+        if (other.CompareTag("Obstacle"))
+        {
+            Debug.Log("Àå¾Ö¹°");
         }
     }
 }

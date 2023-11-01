@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
+    public float speed = 15f;
+
     [SerializeField] Animator playerAnimator;
     [SerializeField] Animator cameraAnimator;
 

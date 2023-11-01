@@ -9,5 +9,6 @@ public class Item : MonoBehaviour
     void Update()
     {
         transform.Rotate(0, rotateSpeed * Time.deltaTime, 0);
+        transform.position += Vector3.back * GameManager.instance.speed * Time.deltaTime;
     }
 }

@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     [SerializeField] ObjectSound objectSound = new ObjectSound();
 
     private float moveLength = 3.5f;
+
+    [SerializeField] int hp = 3;
     
     void Start()
     {
@@ -59,6 +61,16 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Obstacle"))
         {
+            hp--;
+            GameManager.instance.TimeStop();
+            if (hp <= 0)
+            {
+                gameObject.GetComponent<Animator>().Play("Die");
+            }
+            else
+            {
+                gameObject.GetComponent<Animator>().SetTrigger("Hit");
+            }
             Debug.Log("Àå¾Ö¹°");
         }
     }

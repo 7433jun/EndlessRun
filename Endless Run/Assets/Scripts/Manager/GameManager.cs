@@ -12,18 +12,29 @@ public class GameManager : Singleton<GameManager>
 
     [SerializeField] GameObject layoutPanel;
     [SerializeField] GameObject countDownNumber;
+    [SerializeField] GameObject gameOverPanel;
     int count;
 
     WaitForSecondsRealtime waitForSecondRealtime = new WaitForSecondsRealtime(1f);
 
     void Start()
     {
-        GameOver();
+        Time.timeScale = 0.0f;
     }
 
     public void GameOver()
     {
+        gameOverPanel.SetActive(true);
+    }
+
+    public void TimeStop()
+    {
         Time.timeScale = 0.0f;
+    }
+
+    public void TimeContinue()
+    {
+        Time.timeScale = 1.0f;
     }
 
     public void GameStart()

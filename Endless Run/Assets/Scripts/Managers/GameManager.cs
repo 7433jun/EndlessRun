@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -45,6 +46,12 @@ public class GameManager : Singleton<GameManager>
         layoutPanel.SetActive(false);
 
         StartCoroutine(StartWait());
+    }
+
+    public void Retry()
+    {
+        // SceneManager.GetActiveScene().name 현재 씬의 이름
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     IEnumerator StartWait()

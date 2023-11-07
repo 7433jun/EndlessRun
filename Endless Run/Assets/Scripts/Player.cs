@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] CharacterController characterController;
+
+    [SerializeField] float jumpPower = 20f;
     [SerializeField] float positionX;
 
     [SerializeField] ObjectSound objectSound = new ObjectSound();
 
-    private float moveLength = 3.5f;
+    [SerializeField] GameObject GameOverPanel;
 
-    [SerializeField] int hp = 3;
+    private float moveLength = 3.5f;
     
     void Start()
     {
@@ -20,6 +23,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Move();
+        Jump();
     }
 
     private void Move()
@@ -49,6 +53,22 @@ public class Player : MonoBehaviour
         gameObject.transform.position = new Vector3(positionX, 0f, 0f);
     }
 
+    public void OnDie()
+    {
+        GameOverPanel.SetActive(true);
+    }
+
+    public void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (transform.position.y < 0.01f)
+            {
+                transform.position = new Vector3(transform.position.x, 20, 0);
+            }
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         IItem item = other.GetComponent<IItem>();
@@ -61,17 +81,8 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Obstacle"))
         {
-            hp--;
             GameManager.instance.TimeStop();
-            if (hp <= 0)
-            {
-                gameObject.GetComponent<Animator>().Play("Die");
-            }
-            else
-            {
-                gameObject.GetComponent<Animator>().SetTrigger("Hit");
-            }
-            Debug.Log("Àå¾Ö¹°");
+            gameObject.GetComponent<Animator>().Play("Die");
         }
     }
 }
